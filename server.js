@@ -91,7 +91,3 @@ app.delete('/closeAccount/:numero', (req, res) => {
 app.listen(port, () => {
     // console.log(`Serveur en écoute sur http://localhost:${port}`);
 });
-// Pour écouter sur toutes les adresses
-app.listen(port, '192.168.68.50', () => {
-    console.log(`Serveur en écoute sur http://192.168.68.50:${port}`);
-});
